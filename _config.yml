@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "CE Markdown Test"
+TItle: "CE Markdown Test"
 email: dsaint31@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -36,6 +36,7 @@ timezone: ko-KR # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+  - assets/images/_posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
