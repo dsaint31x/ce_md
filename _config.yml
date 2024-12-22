@@ -36,7 +36,6 @@ timezone: ko-KR # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  - assets/images/_posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -115,3 +114,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+toc: true 
+toc_levels: [1,2,3]
